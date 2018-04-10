@@ -3,10 +3,9 @@ os-QR
 
 Aplicativo para controler de Ordem de Serviço utilizando código QR. 
 
+Projeto Supervisionado pelo professor Julian Mayer Rigo para conclusão da disciplina de Computação Gráfica e Processamento de Imagens na Faculdade Pitágoas de Teixeira de Freitas.
 
-Projeto desenvolvido por mim Magno Ramos juntamente com Everson Dias e Isnaldo Silva. Supervisionado pelo professor Julian Mayer Rigo para 
-conclusão da disciplina de Computação Gráfica e Processamento de Imagens na Faculdade Pitágoas de Teixeira de Freitas.
-
+Desenvolvido por mim Magno Ramos juntamente com Everson Dias e Isnaldo Silva.
 
 
 ![alt text](https://github.com/Magno-Ramos/OSQR/blob/master/imagens/IMG-20180315-WA0004.jpg)
