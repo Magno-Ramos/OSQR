@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="QRCodeSize">500px</dimen>
+    <dimen name="common_circle_width">3dp</dimen>
+    <dimen name="alert_width">290dp</dimen>
+    <dimen name="progress_circle_radius">34dp</dimen>
+    <dimen name="width_button_1">155dp</dimen>
+    <dimen name="height_button_1">155dp</dimen>
+    <dimen name="width_button_2">315dp</dimen>
+    <dimen name="height_button_2">100dp</dimen>
+</resources>

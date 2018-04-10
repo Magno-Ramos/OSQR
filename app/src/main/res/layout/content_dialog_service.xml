@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="@dimen/alert_width"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:background="@drawable/dialog_background"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <com.cienciacomputacao.osqr.custom.TextInputEditText
+            android:id="@+id/edtDialogService"
+            android:layout_width="match_parent"
+            android:maxLength="45"
+            android:layout_height="wrap_content"
+            android:hint="Serviço"
+            android:textSize="15sp" />
+
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <com.cienciacomputacao.osqr.custom.TextInputEditText
+            android:id="@+id/edtDialogAdditional"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Adicional"
+            android:maxLength="25"
+            android:textSize="15sp" />
+
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <com.cienciacomputacao.osqr.custom.TextInputEditText
+            android:id="@+id/edtDialogValue"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Valor (Opcional)"
+            android:maxLength="5"
+            android:inputType="numberDecimal"
+            android:textSize="15sp" />
+
+    </android.support.design.widget.TextInputLayout>
+
+    <LinearLayout
+        android:layout_marginBottom="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btDialogCancel"
+            style="@style/dialog_button"
+            android:layout_marginEnd="10dp"
+            android:background="@drawable/gray_button_background"
+            android:text="@string/dialog_cancel" />
+
+        <Button
+            android:id="@+id/btDialogCreate"
+            style="@style/dialog_button"
+            android:background="@drawable/blue_button_background"
+            android:text="Confirmar" />
+
+    </LinearLayout>
+
+</LinearLayout>

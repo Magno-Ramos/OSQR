@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">OSQR</string>
+    <string name="generate_code">Gerar Código</string>
+    <string name="read_code">Ler Código</string>
+    <string name="records">Registros</string>
+
+    <string name="dialog_default_title">Mensagem!</string>
+    <string name="dialog_ok">OK</string>
+    <string name="dialog_cancel">Cancelar</string>
+    <string name="LOADING">Carregando</string>
+    <string name="name">Nome</string>
+    <string name="cpf">CPF</string>
+    <string name="telephone">Telefone</string>
+    <string name="message_min_one_service">Adicione pelo menos 1 serviço</string>
+    <string name="client">Cliente</string>
+    <string name="app_message_subtitle">Ordem de serviço de forma prática</string>
+    <string name="empty_register">Nenhum registro</string>
+</resources>
